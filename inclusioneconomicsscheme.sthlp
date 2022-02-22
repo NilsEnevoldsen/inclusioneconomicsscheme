@@ -19,7 +19,7 @@ The scheme is intended for use by the research team of {it:Inclusion Economics} 
 There are no restrictions on its use.
 
 {pstd}
-Two schemes are provided.
+Two schemes are provided:
 
 	Scheme{col 20}Description
 	{hline 60}
@@ -37,7 +37,7 @@ Two schemes are provided.
 {title:Usage}
 
 {pstd}
-To use, simply specify the scheme at the start of a do-file:
+Specify the scheme at the start of a do-file:
 
 	{cmd:.} {cmd: set scheme ie}
 
@@ -47,13 +47,13 @@ To use, simply specify the scheme at the start of a do-file:
 	{cmd:.} {cmd: set scheme ie2}
 
 {pstd}
-Alternatively, you can specify the scheme in the course of making an individual graph:
+Alternatively, specify the scheme for an individual graph:
 
 	{cmd:.} {cmd: sysuse auto}
 	{cmd:.} {cmd: twoway scatter price mpg, scheme(ie)}
 
 {pstd}
-Or you can set this as the default scheme at the command prompt:
+Alternatively, specify the default scheme at the command prompt:
 
 	{cmd:.} {cmd: set scheme ie, permanently}
 
