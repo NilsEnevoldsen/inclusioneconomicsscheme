@@ -1,4 +1,4 @@
-// Yale Graphing Scheme //
+// Inclusion Economics Graph Scheme //
 
 * Graphing scheme with colors and other tweaks for common graphs
 * Particularly designed for easier and better default plots of
@@ -7,12 +7,12 @@
 
 * This scheme is a reproduction of Trenton Mize's very excellent cleanplots
 * scheme (https://www.trentonmize.com/software/cleanplots), with adaptations
-* for Yale colors.
+* for Inclusion Economics colors.
 
 * NOTE: "help scheme entries" for what each command does
 
-* Aaron Wolf
-* 2020-10-30
+* Nils Enevoldsen
+* 2022-02-04
 #include s1color
 
 // Legend outside below graph
@@ -251,14 +251,14 @@ yesno extend_axes_full_high no
 // Colors //
 
 * White background for all plots
-color background            black*0.02
-color plotregion         	black*0.02
-color plotregion_line    	black*0.02
-color matrix_plotregion  	black*0.02
+color background            white
+color plotregion         	white
+color plotregion_line    	white
+color matrix_plotregion  	white
 color matplotregion_line 	black
-color legend             	black*0.02
+color legend             	white
 color legend_line       	black
-color clegend            	black*0.02
+color clegend            	white
 color clegend_outer      	none
 color clegend_inner      	none
 color clegend_line       	black
@@ -266,133 +266,133 @@ color clegend_line       	black
 
 * Default for all other non-specified objects					
 * NOTE: CIs in marginsplot is based on this					
-color p1					yblue
-color p2 					yorange
-color p3 					ypurple
-color p4 					ygreen
-color p5 					yltblue
-color p6 					yorange*0.8
-color p7 					ypurple*0.8
-color p8 					ygreen*0.8
-color p9 					yvltblue
-color p10 					yorange*0.6
-color p11					ypurple*0.6
-color p12 					ygreen*0.6
-color p13 					ygs1
-color p14 					ygs2
+color p1					ieblue
+color p2 					ieorange
+color p3 					ieteal
+color p4 					iemagenta
+color p5 					ieyellow
+color p6 					iegreen
+color p7 					none
+color p8 					none
+color p9 					none
+color p10 					none
+color p11					none
+color p12 					none
+color p13 					none
+color p14 					none
 					
 * Default for lines (matching the symbols)					
-color p1line				yblue	
-color p2line				yorange	
-color p3line				ypurple	
-color p4line				ygreen	
-color p5line 				yltblue	
-color p6line 				yorange*0.8	
-color p7line 				ypurple*0.8	
-color p8line 				ygreen*0.8	
-color p9line 				yvltblue	
-color p10line 				yorange*0.6	
-color p11line				ypurple*0.6	
-color p12line				ygreen*0.6	
-color p13line 				ygs1	
-color p14line 				ygs2	
+color p1line				ieblue
+color p2line				ieorange
+color p3line				ieteal
+color p4line				iemagenta
+color p5line 				ieyellow
+color p6line 				iegreen
+color p7line 				none
+color p8line 				none
+color p9line 				none
+color p10line 				none
+color p11line				none
+color p12line				none
+color p13line 				none
+color p14line 				none
 					
-color p1lineplot			yblue		
-color p2lineplot			yorange		
-color p3lineplot			ypurple		
-color p4lineplot			ygreen		
-color p5lineplot 			yltblue		
-color p6lineplot			yorange*0.8		
-color p7lineplot 			ypurple*0.8		
-color p8lineplot 			ygreen*0.8		
-color p9lineplot 			yvltblue		
-color p10lineplot 			yorange*0.6		
-color p11lineplot			ypurple*0.6		
-color p12lineplot			ygreen*0.6		
-color p13lineplot			ygs1		
-color p14lineplot 			ygs2		
+color p1lineplot			ieblue
+color p2lineplot			ieorange
+color p3lineplot			ieteal
+color p4lineplot			iemagenta
+color p5lineplot 			ieyellow
+color p6lineplot			iegreen	
+color p7lineplot 			none	
+color p8lineplot 			none
+color p9lineplot 			none
+color p10lineplot 			none	
+color p11lineplot			none	
+color p12lineplot			none
+color p13lineplot			none
+color p14lineplot 			none
 					
-color p1markline			yblue		
-color p2markline			yorange		
-color p3markline			ypurple		
-color p4markline			ygreen		
-color p5markline 			yltblue		
-color p6markline			yorange*0.8		
-color p7markline 			ypurple*0.8		
-color p8markline 			ygreen*0.8		
-color p9markline 			yvltblue		
-color p10markline 			yorange*0.6		
-color p11markline			ypurple*0.6		
-color p12markline			ygreen*0.6		
-color p13markline			ygs1		
-color p14markline 			ygs2		
+color p1markline			ieblue
+color p2markline			ieorange
+color p3markline			ieteal
+color p4markline			iemagenta
+color p5markline 			ieyellow
+color p6markline			iegreen	
+color p7markline 			none	
+color p8markline 			none
+color p9markline 			none
+color p10markline 			none	
+color p11markline			none	
+color p12markline			none
+color p13markline			none
+color p14markline 			none
 					
 * Bar charts					
-color p1bar					yblue
-color p2bar					yorange
-color p3bar					ypurple
-color p4bar					ygreen
-color p5bar					yltblue
-color p6bar					yorange*0.8
-color p7bar					ypurple*0.8
-color p8bar					ygreen*0.8
-color p9bar					yvltblue
-color p10bar				yorange*0.6
-color p11bar				ypurple*0.6
-color p12bar				ygreen*0.6
-color p13bar				ygs1
-color p14bar				ygs2
+color p1bar					ieblue
+color p2bar					ieorange
+color p3bar					ieteal
+color p4bar					iemagenta
+color p5bar					ieyellow
+color p6bar					iegreen
+color p7bar					none
+color p8bar					none
+color p9bar					none
+color p10bar				none
+color p11bar				none
+color p12bar				none
+color p13bar				none
+color p14bar				none
 					
 * Confidence Intervals and other rarea plots					
-color parea					ygs4
-color parealine				ygs4	
+color parea					gs14
+color parealine				gs14	
 					
 * Area plots					
-color p1area				yblue	
-color p2area				yorange	
-color p3area				ypurple	
-color p4area				ygreen	
-color p5area				yltblue	
-color p6area				yorange*0.8	
-color p7area				ypurple*0.8	
-color p8area				ygreen*0.8	
-color p9area				yvltblue	
-color p10area				yorange*0.6	
-color p11area				ypurple*0.6	
-color p12area				ygreen*0.6	
-color p13area				ygs1	
-color p14area				ygs2	
+color p1area				ieblue
+color p2area				ieorange
+color p3area				ieteal
+color p4area				iemagenta
+color p5area				ieyellow
+color p6area				iegreen
+color p7area				none
+color p8area				none
+color p9area				none
+color p10area				none
+color p11area				none
+color p12area				none
+color p13area				none
+color p14area				none
 					
-color p1arealine			yblue		
-color p2arealine			yorange		
-color p3arealine			ypurple		
-color p4arealine			ygreen		
-color p5arealine			yltblue		
-color p6arealine			yorange*0.8		
-color p7arealine			ypurple*0.8		
-color p8arealine			ygreen*0.8		
-color p9arealine			yvltblue		
-color p10arealine			yorange*0.6		
-color p11arealine			ypurple*0.6		
-color p12arealine			ygreen*0.6		
-color p13arealine			ygs1		
-color p14arealine			ygs2		
+color p1arealine			ieblue
+color p2arealine			ieorange
+color p3arealine			ieteal
+color p4arealine			iemagenta
+color p5arealine			ieyellow
+color p6arealine			iegreen
+color p7arealine			none
+color p8arealine			none
+color p9arealine			none
+color p10arealine			none
+color p11arealine			none
+color p12arealine			none
+color p13arealine			none
+color p14arealine			none
 					
 * Pie slices					
-color p1pie					yblue
-color p2pie					yorange
-color p3pie					ypurple
-color p4pie					ygreen
-color p5pie					yltblue
-color p6pie					yorange*0.8
-color p7pie					ypurple*0.8
-color p8pie					ygreen*0.8
-color p9pie					yvltblue
-color p10pie				yorange*0.6
-color p11pie				ypurple*0.6
-color p12pie				ygreen*0.6
-color p13pie				ygs1
-color p14pie				ygs2
+color p1pie					ieblue
+color p2pie					ieorange
+color p3pie					ieteal
+color p4pie					iemagenta
+color p5pie					ieyellow
+color p6pie					iegreen
+color p7pie					none
+color p8pie					none
+color p9pie					none
+color p10pie				none
+color p11pie				none
+color p12pie				none
+color p13pie				none
+color p14pie				none
 
 
 * Do not fade out bar charts and histograms (better for presentations)
@@ -424,9 +424,9 @@ color matrix         		gs6
 color matrixmarkline 		gs6
 color refmarker      		gs11
 color refmarkline    		black
-color histogram      		yblue
+color histogram      		ienavy
 color histback       		gs10
-color histogram_line 		yblue*0.85
+color histogram_line 		ieblue
 color axis_title       		black
 
 * Gridlines
@@ -489,14 +489,14 @@ axisstyle matrix_vert        vertical_default    	// vertical axis for graph mat
 
 
 * Textboxes
-color box ygs4
-color textbox ygs4
+color box gs14
+color textbox gs14
 
 * Added Text Box Style
 textboxstyle  	text_option 		text_option      // overall style of textbox
-color 			text_option      	ygs1
-color 			text_option_line 	ygs4
-color 			text_option_fill 	ygs4
+color 			text_option      	gs2
+color 			text_option_line 	gs14
+color 			text_option_fill 	gs14
 linewidth 		text_option 		none
 yesno 			text_option 		no
 linepattern 	text_option 		solid
@@ -510,6 +510,6 @@ textboxstyle 	subtitle			text_option
 
 
 * Added lines
-color       xyline  yorange
+color       xyline  ieorange
 linewidth   xyline  thin
 linepattern xyline  solid

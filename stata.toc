@@ -1,16 +1,11 @@
-v 1.0.1
-d Created by Aaron Wolf (aaron.wolf@yale.edu)
+v 1.0.0
+d Created by Nils Enevoldsen (nils@wlonk.com)
 
-d 	Installation instructions:
-d	net install yalescheme, from("https://aarondwolf.github.io/yalescheme") replace
+d Installation instructions:
+d net install inclusioneconomicsscheme, from("https://github.com/NilsEnevoldsen/inclusioneconomicsscheme") replace
 d
-d	This scheme is intended to be used with official Yale EGC fonts (Mallory and YaleNew).
-d	To set these as default fonts (note: this is permanent), run the following lines:
-d 	graph set window fontface "Mallory Thin"
-d	graph set window fontfacemono default
-d	graph set window fontfacesans "Mallory Thin"
-d	graph set window fontfaceserif YaleNew
-d	graph set window fontfacesymbol "Mallory Thin"
+d This scheme is intended to be used with official Inclusion Economics fonts
+d (Montserrat and Lora). These fonts are not bundled with this package. For
+d more information on installing and using these fonts, see the help file.
 
-
-p yalescheme A modern Stata scheme for Yale University - branded data visualizations.
+p inclusioneconomicsscheme A modern Stata scheme for Inclusion Economics-branded data visualizations.
