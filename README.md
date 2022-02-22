@@ -61,7 +61,19 @@ set scheme ie, permanently
 The scheme **ie** uses these colors for bar, pie, and area graphs.
 For other graph types, beige is omitted for readability.
 
+- ![#00356B](https://via.placeholder.com/15/00356B/000000?text=+) `#00356B` IE navy
+- ![#8CA1BC](https://via.placeholder.com/15/8CA1BC/000000?text=+) `#8CA1BC` IE blue
+- ![#CE8769](https://via.placeholder.com/15/CE8769/000000?text=+) `#CE8769` IE orange
+- ![#D3CFC3](https://via.placeholder.com/15/D3CFC3/000000?text=+) `#D3CFC3` IE beige
+
 When more than three or four colors are required, you may specify the scheme **ie2**, which has an extended palette of six colors.
+
+- ![#8CA1BC](https://via.placeholder.com/15/8CA1BC/000000?text=+) `#8CA1BC` IE blue
+- ![#CE8769](https://via.placeholder.com/15/CE8769/000000?text=+) `#CE8769` IE orange
+- ![#7CC0AC](https://via.placeholder.com/15/7CC0AC/000000?text=+) `#7CC0AC` IE teal
+- ![#CA7294](https://via.placeholder.com/15/CA7294/000000?text=+) `#CA7294` IE magenta
+- ![#E7CA55](https://via.placeholder.com/15/E7CA55/000000?text=+) `#E7CA55` IE yellow
+- ![#9ECF6E](https://via.placeholder.com/15/9ECF6E/000000?text=+) `#9ECF6E` IE green
 
 If these colors are not suitable, you may manually override them.
 They should appear as the first eight colors in color menus of the Graph Editor, and they may also be specified directly in do-files.
@@ -70,7 +82,7 @@ The colors are named **ienavy**, **iebeige**, **ieblue**, **ieorange**, **ieteal
 
 ## Fonts
 
-The *Inclusion Economics* scheme is intended to be used with *Inclusion Economics* official fonts, Montserrat and Lora, which must be independently downloaded and installed from Google Fonts.
+The *Inclusion Economics* scheme is intended to be used with *Inclusion Economics* official fonts, [Montserrat](https://fonts.google.com/specimen/Montserrat) and [Lora](https://fonts.google.com/specimen/Lora), which must be independently downloaded and installed from Google Fonts.
 Once they are installed, you can use **iefonts** to configure them.
 See **iefonts** for more detail.
 
