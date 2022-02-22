@@ -54,7 +54,10 @@ To set graph fonts to Montserrat, the {it:Inclusion Economics} sans-serif font:
 To set graph fonts to Lora, the {it:Inclusion Economics} serif font:
 	
 	{cmd:.} {cmd: iefonts, serif}
-	
+
+{pstd}
+{bf:Note:} Our brand guidelines state that graphs should use sans-serifs unless there is a compelling reason to use serifs.
+
 {pstd}
 In either case, the configuration is permanent.
 Therefore there is also an option to restore graph fonts to the Stata defaults:
