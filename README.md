@@ -17,13 +17,15 @@ Two schemes are provided:
 
 **Important:** Refer to Fonts for setting up fonts.
 
-## Installing via *ssc*
-
-The *Inclusion Economics* scheme is available for download via ssc:
+## Installing via GitHub
 
 ```stata
-ssc install inclusioneconomicsscheme
+net install inclusioneconomicsscheme, from("https://raw.githubusercontent.com/NilsEnevoldsen/inclusioneconomicsscheme/main/")
 ```
+
+## Installing via *ssc*
+
+*Coming!*
 
 ## Usage
 
