@@ -2,7 +2,7 @@
 
 ---
 
-The *Inclusion Economics* Stata scheme provides a quick set of options for modern-looking graphs from Stata using {it:Inclusion Economics} colors.
+The *Inclusion Economics* Stata scheme provides a quick set of options for modern-looking graphs from Stata using *Inclusion Economics* colors.
 The scheme is intended for use by the research team of *Inclusion Economics* when designing visualization for presentations and social media.
 There are no restrictions on its use.
 
