@@ -2,9 +2,8 @@ v 1.0.0
 d inclusioneconomicsscheme.  A modern Stata scheme for Inclusion Economics-branded data visualizations.
 d Created by Nils Enevoldsen (nils@wlonk.com)
 d
-d Note: Inclusion Economics scheme provides the following new colors for
-d use in Stata graphs (see https://yaleidentity.yale.edu./web):
-d   ieblue, ieorange, ieteal, iemagenta, iegreen, ieyellow, ienavy, iebeige
+d Note: Inclusion Economics scheme provides the following new colors for use in Stata graphs:
+d ieblue, ieorange, ieteal, iemagenta, iegreen, ieyellow, ienavy, iebeige
 
 F iefonts.ado
 F scheme-ie.scheme
