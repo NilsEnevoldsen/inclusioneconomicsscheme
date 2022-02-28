@@ -424,7 +424,7 @@ color matrix         		gs6
 color matrixmarkline 		gs6
 color refmarker      		gs11
 color refmarkline    		black
-color histogram      		ienavy
+color histogram      		ieblue
 color histback       		gs10
 color histogram_line 		ieblue
 color axis_title       		black
