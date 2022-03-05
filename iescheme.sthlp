@@ -1,7 +1,7 @@
 {smcl}
 {* 04feb2022}{...}
 {vieweralsosee "iefonts" "help iefonts"}{...}
-{cmd:help inclusioneconomicsscheme}
+{cmd:help iescheme}
 {hline}
 
 {marker title}
@@ -28,10 +28,10 @@ Two schemes are provided:
 	{hline 60}
 
 {pstd}
-{bf:Note:} Refer to {help inclusioneconomicsscheme##colors:Colors} for more on {cmd:ie} and {cmd:ie2}.
+{bf:Note:} Refer to {help iescheme##colors:Colors} for more on {cmd:ie} and {cmd:ie2}.
 
 {pstd}
-{bf:Important:} Refer to {help inclusioneconomicsscheme##fonts:Fonts} for setting up fonts.
+{bf:Important:} Refer to {help iescheme##fonts:Fonts} for setting up fonts.
 
 {marker usage}
 {title:Usage}

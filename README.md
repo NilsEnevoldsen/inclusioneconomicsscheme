@@ -1,4 +1,4 @@
-# inclusioneconomicsscheme
+# inclusion_economics_scheme
 
 ---
 
@@ -17,15 +17,11 @@ Two schemes are provided:
 
 **Important:** Refer to Fonts for setting up fonts.
 
-## Installing via GitHub
-
-```stata
-net install inclusioneconomicsscheme, from("https://raw.githubusercontent.com/NilsEnevoldsen/inclusioneconomicsscheme/main/")
-```
-
 ## Installing via *ssc*
 
-*Coming!*
+```stata
+ssc install inclusion_economics_scheme
+```
 
 ## Usage
 
