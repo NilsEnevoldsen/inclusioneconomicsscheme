@@ -1,4 +1,4 @@
-v 1.0.0
+v 1.0.1
 
 d This pkg is used only for installation directly from GitHub.
 d net install inclusioneconomicsscheme, from("https://github.com/NilsEnevoldsen/inclusioneconomicsscheme") replace
