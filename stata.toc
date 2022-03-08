@@ -1,0 +1,5 @@
+v 1.0.0
+
+d This toc is used only for installation directly from GitHub.
+
+p inclusion_economics_scheme

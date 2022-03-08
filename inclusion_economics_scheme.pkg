@@ -1,0 +1,20 @@
+v 1.0.0
+
+d This pkg is used only for installation directly from GitHub.
+d net install inclusioneconomicsscheme, from("https://github.com/NilsEnevoldsen/inclusioneconomicsscheme") replace
+
+f iefonts.ado
+f scheme-ie.scheme
+f scheme-ie2.scheme
+f iefonts.sthlp
+f iescheme.sthlp
+f inclusioneconomicsscheme.sthlp
+f inclusion_economics_scheme.sthlp
+f colors/color-ienavy.style
+f colors/color-iebeige.style
+f colors/color-ieblue.style
+f colors/color-ieorange.style
+f colors/color-ieteal.style
+f colors/color-iemagenta.style
+f colors/color-ieyellow.style
+f colors/color-iegreen.style
